@@ -1,0 +1,158 @@
+@media screen and (max-width:362px){
+    .wrapper-1 .div-box{
+        flex-wrap:wrap;
+        gap:10px;
+    }
+}
+
+
+@media screen and (min-width:700px){
+    .body:before{
+        width:679px;
+        height:679px;
+    }
+
+    header {
+       margin: 46px 60px 0px;
+    }
+
+    .nav-section{
+    display:flex;
+    gap:44px;
+    }
+    .section{
+        width:auto;
+        margin:0 60px;
+        text-align:center;
+    }
+    .section-1,
+    .section-2,
+    .section-3,
+    .section-5{
+        margin-top:100px;
+        display:flex;
+        gap:50px;
+    }
+    .section-1-img,
+    .section-2-img,
+    .section-3-img,
+    .section-5-img
+    {
+        width:50%;
+    }
+    
+    .section-1 .div-wrapper,
+    .section-2 .div-wrapper,
+    .section-3 .div-wrapper,
+    .section-5 .div-wrapper
+    {
+        display:flex;
+        align-items:center;
+    }
+    .section-1 .div-wrapper,
+    .section-2 .div-wrapper,
+    .section-3 .div-wrapper,
+    .section-5 .div-wrapper
+    {
+        text-align:left;
+    }
+
+    .wrapper-1 .div-item-img {
+        height: 40px;
+    }
+    
+    .section-1{
+        display:flex;
+        align-items:center;
+    
+    }
+    .section-1 .btn{
+        margin-bottom:0px;
+    }
+
+    .section-2{
+        flex-direction:row-reverse;
+    }
+
+    .section-4{
+        margin-top:100px;
+    }
+
+    .section-4 .div-container{
+        justify-content:center;
+        flex-wrap:nowrap;
+        gap:20px;
+    }
+
+    footer .div-wrapper{
+        padding:104px 60px 24px;
+    }
+
+    footer .div-container{
+        max-width: 1065px;
+        justify-content: space-between;
+        margin:auto;
+        text-align:left;
+    }
+
+    
+}
+
+@media screen and (min-width:1065px){
+    header {
+        width:1065px;
+        margin: 46px auto;
+     }
+
+    .section{
+        margin:100px 0 0;
+    }
+    h1{
+        font-size: var(--font-size-64);
+    }
+    h2{
+        font-size: var(--font-size-48);
+    }
+
+    .section-1{
+        text-align: left;
+    }
+    .section-1 p{
+        font-size: var(--font-size-18);
+
+    }
+
+    .section-2, .section-3, .section-5{
+        gap:100px;
+    }
+    
+    .section-5{
+        gap:90px;
+    }
+
+    .btn {
+        
+    width: 167px;
+    height: 48px;
+    }
+
+    .btn a{
+        text-align: center;
+        font-size: var(--font-size-16);
+    }
+
+    .section-1 .btn{
+        margin-top:39px;
+    }
+
+    .section-5{
+        padding:0 89px 0 75px;
+    }
+
+    .section-5 .div-container {
+        align-items: flex-start;
+}
+    .section-5 p{
+        padding-bottom:32px;
+    }
+}
