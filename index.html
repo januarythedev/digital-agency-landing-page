@@ -7,39 +7,53 @@
       href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
     <title>Digital Agency Landing Page</title>
   </head>
-  <body>
-    <header style="display: none">
+  <body class="body">
+    <header>
       <h2>Digital Agency</h2>
       <div>
         <ul class="nav-section">
-          <li><a href="#" class="nav-link">home</a></li>
-          <li><a href="#" class="nav-link">about</a></li>
-          <li><a href="#" class="nav-link">testimonials</a></li>
-          <li><a href="#" class="nav-link">contact</a></li>
+          <li><a href="#home" class="nav-link">home</a></li>
+          <li><a href="#about" class="nav-link">about</a></li>
+          <li><a href="#testimonials" class="nav-link">testimonials</a></li>
+          <li><a href="#contact" class="nav-link">contact</a></li>
         </ul>
       </div>
     </header>
 
     <main class="main-wrapper">
-      <section class="section section-1">
-        <h1>Building digital products, brands & experience</h1>
-        <p>
-          Digital Agency is your online team mangement tool that easy and prompt
-        </p>
-        <button class="btn"><a href="#">Contact Us</a></button>
+      <section id="home" class="section section-1">
+        <div class="div-wrapper">
+          <div class="div-container">
+            <h1>Building digital products, brands & experience</h1>
+            <p>
+              Digital Agency is your online team mangement tool that easy and
+              prompt
+            </p>
+            <button class="btn"><a href="#">Contact Us</a></button>
+          </div>
+        </div>
         <img
           class="section-1-img"
           src="/images/business-people-discussing-business-idea.png"
         />
+      </section>
+
+      <section class="section">
         <div class="div-wrapper wrapper-1">
           <p>Trusted by 4,000+ companies</p>
           <div class="div-container">
@@ -77,12 +91,16 @@
         </div>
       </section>
 
-      <section class="section section-2">
-        <h2>Branding & Design system</h2>
-        <p>
-          Commonly used in the graphic, print & publishing industris for
-          previewing visual layout and mockups
-        </p>
+      <section id="about" class="section section-2">
+        <div class="div-wrapper">
+          <div class="div-container">
+            <h2>Branding & Design system</h2>
+            <p>
+              Commonly used in the graphic, print & publishing industris for
+              previewing visual layout and mockups
+            </p>
+          </div>
+        </div>
         <img
           class="section-2-img"
           src="images/designer-team-working-on-creative-design.png"
@@ -91,11 +109,16 @@
       </section>
 
       <section class="section section-3">
-        <h2>Custom & Plugin Development</h2>
-        <p>
-          Commonly used in the graphic, print & publishing industris for
-          previewing visual layout and mockups
-        </p>
+        <div class="div-wrapper">
+          <div class="div-container">
+            <h2>Custom & Plugin Development</h2>
+            <p>
+              Commonly used in the graphic, print & publishing industris for
+              previewing visual layout and mockups
+            </p>
+          </div>
+        </div>
+
         <img
           class="section-3-img"
           src="images/businessman-analyzing-data.png"
@@ -103,7 +126,7 @@
         />
       </section>
 
-      <section class="section section-4">
+      <section id="testimonials" class="section section-4">
         <p>TESTIMONIALS</p>
         <h2>Read What Other have to Say</h2>
         <div class="div-wrapper">
@@ -138,14 +161,14 @@
         </div>
       </section>
 
-      <section class="section section-5">
+      <section id="contact" class="section section-5">
+        <img
+          class="section-5-img"
+          src="images/customer-support.png"
+          alt="customer support"
+        />
         <div class="div-wrapper">
           <div class="div-container">
-            <img
-              class="section-5-img"
-              src="images/customer-support.png"
-              alt="customer support"
-            />
             <h2>Be a part of the next big thing</h2>
             <p>
               We work with Brans, Startups, to SMEs. Colaborate for more impact
@@ -156,5 +179,50 @@
         </div>
       </section>
     </main>
+
+    <footer>
+      <div class="div-wrapper">
+        <div class="div-container">
+          <div class="div-item">
+            <span class="footer-title">Digital Agency</span>
+            <p>
+              Building digital products,<br />
+              brands & experience
+            </p>
+          </div>
+
+          <div class="div-item">
+            <span class="footer-title">Resources</span>
+            <ul class="footer-link-container">
+              <li><a class="footer-link" href="#">Guides</a></li>
+              <li><a class="footer-link" href="#">Blog</a></li>
+              <li><a class="footer-link" href="#">Customer Stories</a></li>
+              <li><a class="footer-link" href="#">Glossery</a></li>
+            </ul>
+          </div>
+
+          <div class="div-item">
+            <span class="footer-title">Company</span>
+            <ul class="footer-link-container">
+              <li><a class="footer-link" href="#">About Us</a></li>
+              <li><a class="footer-link" href="#">Careers</a></li>
+              <li><a class="footer-link" href="#">Partners</a></li>
+              <li><a class="footer-link" href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="div-item">
+            <span class="footer-title">Social Media</span>
+            <ul class="footer-link-container">
+              <li><a class="footer-link" href="#">LinkedIn</a></li>
+              <li><a class="footer-link" href="#">Facebook</a></li>
+              <li><a class="footer-link" href="#">Instagram</a></li>
+              <li><a class="footer-link" href="#">Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer-copyright">© Matheus. Todos os direitos reservados</p>
+      </div>
+    </footer>
   </body>
 </html>
